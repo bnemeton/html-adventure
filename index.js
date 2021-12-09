@@ -9,6 +9,6 @@ var chooseArrival = () => {
     window.location.href(`entryway.html/?arrival=${choice}`)
 }
 
-var button = Document.getElementByID("enter");
+var button = Document.getElementById("enter");
 
 button.addEventListener("click", chooseArrival())
