@@ -1,4 +1,4 @@
-var urlParams = new URLSearchParams(window.location.search)
+var urlParams = window.location.search
 
 let choice = urlParams.get("arrival") || "error"
 
