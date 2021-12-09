@@ -1,7 +1,8 @@
 /// var arrivalForm = Document.getElementByID("arrival-form");
-var choice = Document.getElementByID("arrival-select").value;
+var options = Document.getElementByID("arrival-select").options;
+var choice = options[options.selectedIndex].id;
 
 function handleSubmit(e) {
     e.preventDefault();
-    window.location.replace(`bnemeton.github.io/html-adventure/fix url mentryway/?arrival=${choice}`)
+    window.location.replace(`bnemeton.github.io/html-adventure/entryway/?arrival=${choice}`)
 }
