@@ -9,5 +9,11 @@ p.innerText = `${choice}`
 switch (choice) {
     case "horse":
         document.getElementById("horse").removeAttribute("hidden")
-    
+        break;
+    case "walk":
+        document.getElementById("walk").removeAttribute("hidden")
+         break;
+    case "pursuit":
+        document.getElementById("pursuit").removeAttribute("hidden")
+        break;
 }
