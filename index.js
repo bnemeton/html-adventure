@@ -3,5 +3,5 @@ var choice = Document.getElementByID("arrival-select").value;
 
 function handleSubmit(e) {
     e.preventDefault();
-    window.location.replace(`/entryway/?arrival=${choice}`)
+    window.location.replace(`bnemeton.github.io/html-adventure/fix url mentryway/?arrival=${choice}`)
 }
