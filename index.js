@@ -4,11 +4,11 @@
 
 var chooseArrival = () => {
    /// e.preventDefault();
-    var options = Document.getElementById("arrival-select").options;
+    var options = document.getElementById("arrival-select").options;
     var choice = options[options.selectedIndex].id;
     window.location.href(`entryway.html/?arrival=${choice}`)
 }
 
-var button = Document.getElementById("enter");
+var button = document.getElementById("enter");
 
 button.addEventListener("click", chooseArrival())
