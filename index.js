@@ -2,7 +2,7 @@
 
 
 
-function chooseArrival() {
+var chooseArrival = () => {
    /// e.preventDefault();
     var options = Document.getElementByID("arrival-select").options;
     var choice = options[options.selectedIndex].id;
