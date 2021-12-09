@@ -6,7 +6,7 @@ var chooseArrival = () => {
    /// e.preventDefault();
     var options = document.getElementById("arrival-select").options;
     var choice = options[options.selectedIndex].id;
-    location.href = `entryway.html/?arrival=${choice}`
+    location.href = `entryway/?arrival=${choice}`
 }
 
 /// var button = document.getElementById('enter');
