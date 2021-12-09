@@ -4,5 +4,5 @@ var choice = options[options.selectedIndex].id;
 
 function handleSubmit(e) {
     e.preventDefault();
-    window.location.replace(`bnemeton.github.io/html-adventure/entryway/?arrival=${choice}`)
+    window.location.replace(`/entryway/?arrival=${choice}`)
 }
