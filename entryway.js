@@ -17,4 +17,9 @@ switch (choice) {
         document.getElementById("pursuit").removeAttribute("hidden")
         p.innerText = `, pursued by mysterious foes`
         break;
+    case "secret":
+        document.getElementById("secret").removeAttribute("hidden")
+        p.innerText = ' in secret'
+        break;
+        
 }
