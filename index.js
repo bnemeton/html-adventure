@@ -4,5 +4,5 @@ var choice = options[options.selectedIndex].id;
 
 function handleSubmit(e) {
     e.preventDefault();
-    window.location.replace(`/entryway.html/?arrival=${choice}`)
+    window.location.href(`entryway.html/?arrival=${choice}`)
 }
